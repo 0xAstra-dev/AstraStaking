@@ -2,7 +2,7 @@
 This contract allows users to stake STAR LP tokens to earn BGT rewards. STAR LP tokens represent liquidity provided in the STAR token pools, and users can earn BGT for contributing to liquidity. The rewards system encourages users to actively support liquidity, which is crucial for the Astra ecosystem’s stability. The contract tracks the amount staked by users and distributes rewards proportionally based on their stake. Users can claim their rewards through the contract.
 
 #### veSTAR (Vote-Escrowed STAR):
-The veSTAR contract enables users to lock ASTR tokens for governance participation. By locking ASTR for varying periods, users receive veSTAR, which provides voting power and boosts their rewards from liquidity staking. The longer the lock duration, the more veSTAR a user receives, aligning incentives with the protocol’s long-term growth. veSTAR holders can vote on important protocol decisions and receive higher rewards in the StarLPStaking contract based on their veSTAR holdings.
+The veSTAR contract enables users to lock STAR tokens for governance participation. By locking STAR for varying periods, users receive veSTAR, which provides voting power and boosts their rewards from liquidity staking. The longer the lock duration, the more veSTAR a user receives, aligning incentives with the protocol’s long-term growth. veSTAR holders can vote on important protocol decisions and receive higher rewards in the StarLPStaking contract based on their veSTAR holdings.
 
 #### Governance Contract:
 The Governance Contract allows veSTAR holders to participate in the decision-making process of the Astra ecosystem. By holding veSTAR, users gain the right to vote on key protocol changes, including liquidity management, reward distributions, and upgrades to the system. Votes are weighted based on the amount of veSTAR a user holds, meaning long-term stakeholders have a greater influence over governance decisions. The contract ensures that proposals are transparent, and governance decisions are executed securely through a timelock contract that gives time for governance reviews.
@@ -15,3 +15,6 @@ This contract handles liquidity provisioning using cross-chain fees to add liqui
 
 #### Game Economy Integration:
 The game pool receives a portion of the iBGT rewards, which can be utilized in Astra's in-game economy, promoting further engagement with the gaming aspects of the ecosystem. This helps balance in-game resources while providing liquidity to the DeFi side of the ecosystem, ensuring Astra’s in-game economy and the broader liquidity system remain healthy and balanced.
+
+#### Resource Synthesis
+Used to synthesize gaming resources
