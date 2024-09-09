@@ -1,5 +1,5 @@
 #### StarLPStaking Contract:
-This contract allows users to stake STAR LP tokens to earn BGT rewards. STAR LP tokens represent liquidity provided in the STAR token pools, and users can earn BGT for contributing to liquidity. The rewards system encourages users to actively support liquidity, which is crucial for the Astra ecosystem’s stability. The contract tracks the amount staked by users and distributes rewards proportionally based on their stake. Users can claim their rewards through the contract.
+This contract allows users to stake STAR LP tokens to earn BGT rewards. Users can claim their rewards through the contract.
 
 #### veSTAR (Vote-Escrowed STAR):
 The veSTAR contract enables users to lock STAR tokens for governance participation. By locking STAR for varying periods, users receive veSTAR, which provides voting power and boosts their rewards from liquidity staking. The longer the lock duration, the more veSTAR a user receives, aligning incentives with the protocol’s long-term growth. veSTAR holders can vote on important protocol decisions and receive higher rewards in the StarLPStaking contract based on their veSTAR holdings.
