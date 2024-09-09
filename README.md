@@ -1,3 +1,5 @@
+### 0xAstra Berachain Contract 
+
 #### StarLPStaking Contract:
 This contract allows users to stake STAR LP tokens to earn BGT rewards. Users can claim their rewards through the contract.
 
